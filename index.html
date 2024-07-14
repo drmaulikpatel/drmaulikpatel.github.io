@@ -9,22 +9,21 @@
 
         <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.css">
-
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-
         <link rel="stylesheet" href="css/aos.css">
-
         <link rel="stylesheet" href="css/ionicons.min.css">
-
         <link rel="stylesheet" href="css/bootstrap-datepicker.css">
         <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
+
+        <style>
+        .hero-section {
+        height: 60vh; /* This sets the height to three times the viewport height */
+        background-size: cover;
+        background-position: center;
+        }
+        </style>
     </head>
     <body>
 
@@ -40,9 +39,6 @@
                         <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                        <!-- <li class="nav-item"><a href="doctors.html" class="nav-link">Doctors</a></li> -->
-                        <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-                        <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
                         <li class="nav-item cta"><a href="contact.html" class="nav-link" data-toggle="modal" data-target="#modalRequest"><span>Contact Us</span></a></li>
                     </ul>
                 </div>
@@ -50,34 +46,19 @@
         </nav>
         <!-- END nav -->
 
-        <section class="home-slider owl-carousel">
-            <div class="slider-item" style="background-image: url('images/bg_1.jpg');">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row slider-text align-items-center" data-scrollax-parent="true">
-                        <div class="col-md-22 col-sm-24 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome to Dr. Patel's Dental Clinic</h1>
-                            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We're dedicated to providing exceptional dental care in a warm and welcoming environment. Explore our services and schedule your appointment today.</p>
-                            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="contact.html" class="btn btn-primary px-4 py-3" data-toggle="modal" data-target="#modalRequest">Make an Appointment</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slider-item" style="background-image: url('images/bg_2.jpg');">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row slider-text align-items-center" data-scrollax-parent="true">
-                        <div class="col-md-22 col-sm-24 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome to Dr. Patel's Dental Clinic</h1>
-                            <p class="mb-4">We're dedicated to providing exceptional dental care in a warm and welcoming environment. Explore our services and schedule your appointment today.</p>
-                            <!-- <p><a href="#" class="btn btn-primary px-4 py-3">Make an Appointment</a></p> -->
-                            <p class="nav-item cta"><a href="contact.html" class="btn btn-primary px-4 py-3" data-toggle="modal" data-target="#modalRequest">Make an Appointment</a></p>
-                        </div>
+        <section class="hero-section d-flex align-items-center" style="background-image: url('images/bg_1.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center hero-content">
+                        <h1 class="mb-4">Welcome to Dr. Patel's Dental Clinic</h1>
+                        <p class="mb-4" style="color: black;">We're dedicated to providing exceptional dental care in a warm and welcoming environment. Explore our services and schedule your appointment today.</p>
+                        <a href="contact.html" class="btn btn-primary px-4 py-3" data-toggle="modal" data-target="#modalRequest">Make an Appointment</a>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <section class="ftco-intro">
             <div class="container">
@@ -109,564 +90,567 @@
                 </div>
             </div>
         </section>
-  
-    <section class="ftco-section ftco-services">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Welcome to Dr. Patel's Dental Clinic</h2>
-            <p>Join us on a journey to a healthy and beautiful smile.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-                    <img src="images/mycollection64/png/004-root-canal.png" alt="Dental Implant Icon"  width="64" height="64">
-            		<!-- <span class="flaticon-tooth-1"></span> -->
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Root Canal Treatment</h3>
-                <br/>
-                <p>Root canal treatment is a dental procedure aimed at removing infected or damaged pulp from tooth to relieve pain and preserve the tooth structure.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-                    <img src="images/mycollection64/png/003-dental-crown.png" alt="Dental Implant Icon"  width="64" height="64">
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Crowns and Veneers</h3>
-                <br/>
-                <p>Dental crowns and veneers are tooth-shaped "caps" placed over damaged teeth to restore their shape, size, strength, and improve appearance.</p>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-                    <img src="images/mycollection64/png/002-dental-implant-1.png" alt="Dental Implant Icon"  width="64" height="64">
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Dental Implants</h3>
-                <br/>
-                <p>Dental implants, made of titanium are surgically placed into the jawbone that provides support for the replacement of missing teeth.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-                    <img src="images/mycollection64/png/007-smile.png" alt="Dental Implant Icon"  width="64" height="64">
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Smile Designing</h3>
-                <br/>
-                <p>Smile design involves enhancing the appearance of a person's smile in cases when front teeth are irregulary shaped, discoloured, broken or worn out.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-          <div class="row justify-content-center">
-            <div class="col-md-6 text-center">
-              <a href="services.html" class="btn btn-primary px-6 py-2">More Services</a>
-            </div>
-          </div>
-      </div>
-      <div class="container-wrap mt-5">
-      	<div class="row d-flex no-gutters">
-      		<div class="col-md-6 img" style="background-image: url(images/about-2.jpg);">
-      		</div>
-      		<div class="col-md-6 d-flex">
-      			<div class="about-wrap">
-      				<div class="heading-section heading-section-white mb-5 ftco-animate">
-		            <h2 class="mb-2">Why choose Dr. Patel's Dental Clinic?</h2>
-		          </div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>Personalized Dental Care</h3>
-	      					<p>We understand that every patient is unique, and so are their dental needs. With a patient-centered approach, we take the time to listen to your concerns, understand your goals, and tailor our treatments to ensure your comfort and satisfaction.</p>
-      					</div>
-      				</div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>Expertise and Experience</h3>
-	      					<p>With specialized experience in Prosthodontics and Implantology, Dr. Maulik Patel brings a deep understanding of dental aesthetics and functionality. You can trust in our skill and knowledge to deliver results that exceed your expectations.</p>
-      					</div>
-      				</div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>Your Comfort is Our Priority</h3>
-	      					<p>We understand that visiting the dentist can sometimes be a source of anxiety. That's why we've designed our clinic with your comfort in mind. Our modern and inviting space, along with our caring team, is dedicated to making your dental experience as pleasant as possible.</p>
-      					</div>
-      				</div>
-      			</div>
-      		</div>
-      	</div>
-      </div>
-    </section>
 
-
-    <!-- <section class="ftco-section"> -->
-    <!--   <div class="container"> -->
-    <!--   	<div class="row justify-content-center mb-5 pb-5"> -->
-    <!--       <div class="col-md-7 text-center heading-section ftco-animate"> -->
-    <!--         <h2 class="mb-3">Meet Our Experience Dentist</h2> -->
-    <!--         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p> -->
-    <!--       </div> -->
-    <!--     </div> -->
-    <!--     <div class="row"> -->
-    <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
-    <!--     		<div class="staff"> -->
-    <!--   				<div class="img mb-4" style="background-image: url(images/person_5.jpg);"></div> -->
-    <!--   				<div class="info text-center"> -->
-    <!--   					<h3><a href="teacher-single.html">Tom Smith</a></h3> -->
-    <!--   					<span class="position">Dentist</span> -->
-    <!--   					<div class="text"> -->
-	   <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
-	   <!--      				<ul class="ftco-social"> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
-			 <!--            </ul> -->
-	   <!--      			</div> -->
-    <!--   				</div> -->
-    <!--     		</div> -->
-    <!--     	</div> -->
-    <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
-    <!--     		<div class="staff"> -->
-    <!--   				<div class="img mb-4" style="background-image: url(images/person_6.jpg);"></div> -->
-    <!--   				<div class="info text-center"> -->
-    <!--   					<h3><a href="teacher-single.html">Mark Wilson</a></h3> -->
-    <!--   					<span class="position">Dentist</span> -->
-    <!--   					<div class="text"> -->
-	   <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
-	   <!--      				<ul class="ftco-social"> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
-			 <!--            </ul> -->
-	   <!--      			</div> -->
-    <!--   				</div> -->
-    <!--     		</div> -->
-    <!--     	</div> -->
-    <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
-    <!--     		<div class="staff"> -->
-    <!--   				<div class="img mb-4" style="background-image: url(images/person_7.jpg);"></div> -->
-    <!--   				<div class="info text-center"> -->
-    <!--   					<h3><a href="teacher-single.html">Patrick Jacobson</a></h3> -->
-    <!--   					<span class="position">Dentist</span> -->
-    <!--   					<div class="text"> -->
-	   <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
-	   <!--      				<ul class="ftco-social"> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
-			 <!--            </ul> -->
-	   <!--      			</div> -->
-    <!--   				</div> -->
-    <!--     		</div> -->
-    <!--     	</div> -->
-    <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
-    <!--     		<div class="staff"> -->
-    <!--   				<div class="img mb-4" style="background-image: url(images/person_8.jpg);"></div> -->
-    <!--   				<div class="info text-center"> -->
-    <!--   					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3> -->
-    <!--   					<span class="position">System Analyst</span> -->
-    <!--   					<div class="text"> -->
-	   <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
-	   <!--      				<ul class="ftco-social"> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
-			 <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
-			 <!--            </ul> -->
-	   <!--      			</div> -->
-    <!--   				</div> -->
-    <!--     		</div> -->
-    <!--     	</div> -->
-    <!--     </div> -->
-    <!--     <div class="row  mt-5 justify-conten-center"> -->
-    <!--     	<div class="col-md-8 ftco-animate"> -->
-    <!--     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero accusantium sunt sit aliquam ipsum molestias autem perferendis, incidunt cumque necessitatibus cum amet cupiditate, ut accusamus. Animi, quo. Laboriosam, laborum.</p> -->
-    <!--     	</div> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!-- </section> -->
-
-		<section class="ftco-section testimony-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Our Patient Reviews</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center ftco-animate">
-          <div class="col-md-8">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/Iksh_Patel.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">I recently had the opportunity to visit a dentist who performed an implant surgery, and I must say that I am thoroughly impressed with the entire experience. From the moment I walked into the clinic, I felt welcomed and at ease.</p>
-                    <p class="name">Iksh Patel</p>
-                  </div>
+        <section class="ftco-section ftco-services">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-5">
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <h2 class="mb-2">Welcome to Dr. Patel's Dental Clinic</h2>
+                        <p>Join us on a journey to a healthy and beautiful smile.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/shinu_joseph.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">I recently had the pleasure of visiting Dr. Patel's Dental Clinic for my daughter's dental needs and I must say that the experience exceeded my expectations in every way. It was great experience and I suggest this dental clinic to all. Thank you so much Dr. Maulik patel.</p>
-                    <p class="name">Shinu Joseph</p>
-                  </div>
+                <div class="row">
+                    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                        <div class="media block-6 services d-block text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <img src="images/mycollection64/png/004-root-canal.png" alt="Dental Implant Icon"  width="64" height="64">
+                                    <!-- <span class="flaticon-tooth-1"></span> -->
+                            </div>
+                            <div class="media-body p-2 mt-3">
+                                <h3 class="heading">Root Canal Treatment</h3>
+                                <br/>
+                                <p>Root canal treatment is a dental procedure aimed at removing infected or damaged pulp from tooth to relieve pain and preserve the tooth structure.</p>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                        <div class="media block-6 services d-block text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <img src="images/mycollection64/png/003-dental-crown.png" alt="Dental Implant Icon"  width="64" height="64">
+                            </div>
+                            <div class="media-body p-2 mt-3">
+                                <h3 class="heading">Crowns and Veneers</h3>
+                                <br/>
+                                <p>Dental crowns and veneers are tooth-shaped "caps" placed over damaged teeth to restore their shape, size, strength, and improve appearance.</p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                        <div class="media block-6 services d-block text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <img src="images/mycollection64/png/002-dental-implant-1.png" alt="Dental Implant Icon"  width="64" height="64">
+                            </div>
+                            <div class="media-body p-2 mt-3">
+                                <h3 class="heading">Dental Implants</h3>
+                                <br/>
+                                <p>Dental implants, made of titanium are surgically placed into the jawbone that provides support for the replacement of missing teeth.</p>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                        <div class="media block-6 services d-block text-center">
+                            <div class="icon d-flex justify-content-center align-items-center">
+                                <img src="images/mycollection64/png/007-smile.png" alt="Dental Implant Icon"  width="64" height="64">
+                            </div>
+                            <div class="media-body p-2 mt-3">
+                                <h3 class="heading">Smile Designing</h3>
+                                <br/>
+                                <p>Smile design involves enhancing the appearance of a person's smile in cases when front teeth are irregulary shaped, discoloured, broken or worn out.</p>
+                            </div>
+                        </div>      
+                    </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/Shubham_Thakkar.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Clinic was impeccably clean, the doctor nd the staff was incredibly friendly and professional. I visited for cleaning of my teeth and it was top-notch, leaving my teeth feeling fresh n rejuvenated. I couldn't be happier wid this experience. Highly recommended!</p>
-                    <p class="name">Shubham Thakkar</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/Sanskruti_Suthar.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">I recently underwent a tooth extraction procedure at Dr. Patel’s clinic, and I must commend the team for their exceptional care and expertise. From the initial consultation to the actual extraction, Dr. Patel took the time to thoroughly explain the procedure and answer all my questions, alleviating any anxieties I had.</p>
-                    <p class="name">Sanskruti Suthar</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/Prabhu_Prajapati.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Very good and best treatment by Dr Maulik Patel. Best option specially for Tooth implants and also other Dental treatment. I have personally very best experience.</p>
-                    <p class="name">Prabhu Prajapati</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
-    	<div class="container">
-    		<div class="row d-flex align-items-center">
-    			<div class="col-md-3 aside-stretch py-5">
-    				<div class=" heading-section heading-section-white ftco-animate pr-md-4">
-	            <h2 class="mb-3">Achievements</h2>
-	          </div>
-    			</div>
-    			<div class="col-md-9 py-5 pl-md-5">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number">7</strong>
-		                <span>Years of Experience</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number">5</strong>
-		                <span>Expert Doctors</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number">2100</strong>
-		                <span>Happy Smiling Customer</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number">320</strong>
-		                <span>Patients Per Year</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-	      </div>
-    	</div>
-    </section>
-
-		<!-- <section class="ftco-gallery"> -->
-  <!--   	<div class="container-wrap"> -->
-  <!--   		<div class="row no-gutters"> -->
-		<!-- 			<div class="col-md-3 ftco-animate"> -->
-		<!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);"> -->
-		<!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
-  <!--   						<span class="icon-search"></span> -->
-  <!--   					</div> -->
-		<!-- 				</a> -->
-		<!-- 			</div> -->
-		<!-- 			<div class="col-md-3 ftco-animate"> -->
-		<!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);"> -->
-		<!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
-  <!--   						<span class="icon-search"></span> -->
-  <!--   					</div> -->
-		<!-- 				</a> -->
-		<!-- 			</div> -->
-		<!-- 			<div class="col-md-3 ftco-animate"> -->
-		<!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);"> -->
-		<!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
-  <!--   						<span class="icon-search"></span> -->
-  <!--   					</div> -->
-		<!-- 				</a> -->
-		<!-- 			</div> -->
-		<!-- 			<div class="col-md-3 ftco-animate"> -->
-		<!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);"> -->
-		<!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
-  <!--   						<span class="icon-search"></span> -->
-  <!--   					</div> -->
-		<!-- 				</a> -->
-		<!-- 			</div> -->
-  <!--       </div> -->
-  <!--   	</div> -->
-  <!--   </section> -->
-
-    <!-- <section class="ftco-section"> -->
-    <!--   <div class="container"> -->
-    <!--     <div class="row justify-content-center mb-5 pb-3"> -->
-    <!--       <div class="col-md-7 text-center heading-section ftco-animate"> -->
-    <!--         <h2 class="mb-2">Latest Blog</h2> -->
-    <!--         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-    <!--       </div> -->
-    <!--     </div> -->
-    <!--     <div class="row"> -->
-    <!--       <div class="col-md-4 ftco-animate"> -->
-    <!--         <div class="blog-entry"> -->
-    <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');"> -->
-    <!--           </a> -->
-    <!--           <div class="text d-flex py-4"> -->
-    <!--             <div class="meta mb-3"> -->
-    <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
-    <!--               <div><a href="#">Admin</a></div> -->
-    <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
-    <!--             </div> -->
-    <!--             <div class="desc pl-3"> -->
-	   <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
-	   <!--            </div> -->
-    <!--           </div> -->
-    <!--         </div> -->
-    <!--       </div> -->
-    <!--       <div class="col-md-4 ftco-animate"> -->
-    <!--         <div class="blog-entry" data-aos-delay="100"> -->
-    <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');"> -->
-    <!--           </a> -->
-    <!--           <div class="text d-flex py-4"> -->
-    <!--             <div class="meta mb-3"> -->
-    <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
-    <!--               <div><a href="#">Admin</a></div> -->
-    <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
-    <!--             </div> -->
-    <!--             <div class="desc pl-3"> -->
-	   <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
-	   <!--            </div> -->
-    <!--           </div> -->
-    <!--         </div> -->
-    <!--       </div> -->
-    <!--       <div class="col-md-4 ftco-animate"> -->
-    <!--         <div class="blog-entry" data-aos-delay="200"> -->
-    <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');"> -->
-    <!--           </a> -->
-    <!--           <div class="text d-flex py-4"> -->
-    <!--             <div class="meta mb-3"> -->
-    <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
-    <!--               <div><a href="#">Admin</a></div> -->
-    <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
-    <!--             </div> -->
-    <!--             <div class="desc pl-3"> -->
-	   <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
-	   <!--            </div> -->
-    <!--           </div> -->
-    <!--         </div> -->
-    <!--       </div> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!-- </section> -->
-		
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Dr. Patel's Dental Clinic</h2>
-              <p>We welcome you to embark on a journey towards happy and healthy smiles with us. Let us be your trusted partners in dental care.</p>
-              <p>Follow us on</p>
-            </div>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
-            <!-- <ul class="ftco-footer-social list-unstyled d-flex justify-content-center"> -->
-              <li class="ftco-animate"><a href="https://www.instagram.com/drpatelsdentistry?utm_source=qr&igsh=d2dvd2gwZmY3aXhp" target="_blank"><span class="icon-instagram"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61550794847714&mibextid=ZbWKwL target="_blank"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-
-                    
-            </ul>
-          </div>
-          <!-- <div class="col-md-2"> -->
-          <!--   <div class="ftco-footer-widget mb-4 ml-md-5"> -->
-          <!--     <h2 class="ftco-heading-2">Quick Links</h2> -->
-          <!--     <ul class="list-unstyled"> -->
-          <!--       <li><a href="#" class="py-2 d-block">About</a></li> -->
-          <!--       <li><a href="#" class="py-2 d-block">Features</a></li> -->
-          <!--       <li><a href="#" class="py-2 d-block">Projects</a></li> -->
-          <!--       <li><a href="#" class="py-2 d-block">Blog</a></li> -->
-          <!--       <li><a href="#" class="py-2 d-block">Contact</a></li> -->
-          <!--     </ul> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <!-- <div class="col-md-4 pr-md-4"> -->
-          <!--   <div class="ftco-footer-widget mb-4"> -->
-          <!--     <h2 class="ftco-heading-2">Recent Blog</h2> -->
-          <!--     <div class="block-21 mb-4 d-flex"> -->
-          <!--       <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a> -->
-          <!--       <div class="text"> -->
-          <!--         <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3> -->
-          <!--         <div class="meta"> -->
-          <!--           <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div> -->
-          <!--           <div><a href="#"><span class="icon-person"></span> Admin</a></div> -->
-          <!--           <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
-          <!--         </div> -->
-          <!--       </div> -->
-          <!--     </div> -->
-              <!-- <div class="block-21 mb-4 d-flex"> -->
-              <!--   <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a> -->
-              <!--   <div class="text"> -->
-              <!--     <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3> -->
-              <!--     <div class="meta"> -->
-              <!--       <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div> -->
-              <!--       <div><a href="#"><span class="icon-person"></span> Admin</a></div> -->
-              <!--       <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
-              <!--     </div> -->
-              <!--   </div> -->
-              <!-- </div> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <div class="col-md-3">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Contact Us</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><a href="tel:+918320345948"><span class="icon icon-phone"></span><span class="text">+91 83203 45948</span></a></li>
-                    <li><a href="https://wa.me/918320345948" target="_blank"><span class="icon icon-whatsapp"></span><span class="text">+91 83203 45948</span></a></li>
-	                <li><a href="mailto:drpatelsdentistry@gmail.com"><span class="icon icon-envelope"></span><span class="text">drpatelsdentistry@gmail.com</span></a></li>
-	                <li><a href="https://maps.app.goo.gl/zr7B6sjCTDa7Qewe6" target="_blank"><span class="icon icon-map-marker"></span><span class="text">Shakti ETC, A - 307, NR Vandematram Cross Rd, opp. Nayara Petrol Pump, Gota, Ahmedabad -382481</span></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart" style="color: red;" aria-hidden="true"></i> in India using <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalRequestLabel">Contact Us</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-          <!-- <div class="modal-body text-dark"> -->
-          <!--   <p>Modal body text goes here.</p> -->
-          <!-- </div> -->
-            <div class="modal-body">
-              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-                <div class="block-23 mb-3">
-                    <ul>
-                        <li><a href="tel:+918320345948"><span class="icon icon-phone text-dark"></span><span class="text text-dark">+91 83203 45948</span></a></li>
-                        <li><a href="https://wa.me/918320345948" target="_blank"><span class="icon icon-whatsapp text-dark"></span><span class="text text-dark">+91 83203 45948</span></a></li>
-                        <li><a href="mailto:drpatelsdentistry@gmail.com"><span class="icon icon-envelope text-dark"></span><span class="text text-dark">drpatelsdentistry@gmail.com</span></a></li>
-                        <li><a href="https://maps.app.goo.gl/zr7B6sjCTDa7Qewe6" target="_blank"><span class="icon icon-map-marker text-dark"></span><span class="text text-dark">Shakti ETC, A - 307, NR Vandematram Cross Rd, opp. Nayara Petrol Pump, Janta Nagar, Gota, Ahmedabad, Gujarat 382481</span></li>
-                    </ul>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <a href="services.html" class="btn btn-primary px-6 py-2">More Services</a>
+                    </div>
                 </div>
             </div>
+            <div class="container-wrap mt-5">
+                <div class="row d-flex no-gutters">
+                    <div class="col-md-6 img" style="background-image: url(images/about-2.jpg);">
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="about-wrap">
+                            <div class="heading-section heading-section-white mb-5 ftco-animate">
+                                <h2 class="mb-2">Why choose Dr. Patel's Dental Clinic?</h2>
+                            </div>
+                            <div class="list-services d-flex ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="icon-check2"></span>
+                                </div>
+                                <div class="text">
+                                    <h3>Personalized Dental Care</h3>
+                                    <p>We understand that every patient is unique, and so are their dental needs. With a patient-centered approach, we take the time to listen to your concerns, understand your goals, and tailor our treatments to ensure your comfort and satisfaction.</p>
+                                </div>
+                            </div>
+                            <div class="list-services d-flex ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="icon-check2"></span>
+                                </div>
+                                <div class="text">
+                                    <h3>Expertise and Experience</h3>
+                                    <p>With specialized experience in Prosthodontics and Implantology, Dr. Maulik Patel brings a deep understanding of dental aesthetics and functionality. You can trust in our skill and knowledge to deliver results that exceed your expectations.</p>
+                                </div>
+                            </div>
+                            <div class="list-services d-flex ftco-animate">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="icon-check2"></span>
+                                </div>
+                                <div class="text">
+                                    <h3>Your Comfort is Our Priority</h3>
+                                    <p>We understand that visiting the dentist can sometimes be a source of anxiety. That's why we've designed our clinic with your comfort in mind. Our modern and inviting space, along with our caring team, is dedicated to making your dental experience as pleasant as possible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      </div>
-    </div>
-  </div>
+
+        <!-- <section class="ftco-section"> -->
+        <!--   <div class="container"> -->
+        <!--   	<div class="row justify-content-center mb-5 pb-5"> -->
+        <!--       <div class="col-md-7 text-center heading-section ftco-animate"> -->
+        <!--         <h2 class="mb-3">Meet Our Experience Dentist</h2> -->
+        <!--         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--     <div class="row"> -->
+        <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
+        <!--     		<div class="staff"> -->
+        <!--   				<div class="img mb-4" style="background-image: url(images/person_5.jpg);"></div> -->
+        <!--   				<div class="info text-center"> -->
+        <!--   					<h3><a href="teacher-single.html">Tom Smith</a></h3> -->
+        <!--   					<span class="position">Dentist</span> -->
+        <!--   					<div class="text"> -->
+        <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
+        <!--      				<ul class="ftco-social"> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
+        <!--            </ul> -->
+        <!--      			</div> -->
+        <!--   				</div> -->
+        <!--     		</div> -->
+        <!--     	</div> -->
+        <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
+        <!--     		<div class="staff"> -->
+        <!--   				<div class="img mb-4" style="background-image: url(images/person_6.jpg);"></div> -->
+        <!--   				<div class="info text-center"> -->
+        <!--   					<h3><a href="teacher-single.html">Mark Wilson</a></h3> -->
+        <!--   					<span class="position">Dentist</span> -->
+        <!--   					<div class="text"> -->
+        <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
+        <!--      				<ul class="ftco-social"> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
+        <!--            </ul> -->
+        <!--      			</div> -->
+        <!--   				</div> -->
+        <!--     		</div> -->
+        <!--     	</div> -->
+        <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
+        <!--     		<div class="staff"> -->
+        <!--   				<div class="img mb-4" style="background-image: url(images/person_7.jpg);"></div> -->
+        <!--   				<div class="info text-center"> -->
+        <!--   					<h3><a href="teacher-single.html">Patrick Jacobson</a></h3> -->
+        <!--   					<span class="position">Dentist</span> -->
+        <!--   					<div class="text"> -->
+        <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
+        <!--      				<ul class="ftco-social"> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
+        <!--            </ul> -->
+        <!--      			</div> -->
+        <!--   				</div> -->
+        <!--     		</div> -->
+        <!--     	</div> -->
+        <!--     	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate"> -->
+        <!--     		<div class="staff"> -->
+        <!--   				<div class="img mb-4" style="background-image: url(images/person_8.jpg);"></div> -->
+        <!--   				<div class="info text-center"> -->
+        <!--   					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3> -->
+        <!--   					<span class="position">System Analyst</span> -->
+        <!--   					<div class="text"> -->
+        <!--      				<p>Far far away, behind the word mountains, far from the countries Vokalia</p> -->
+        <!--      				<ul class="ftco-social"> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+        <!--              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li> -->
+        <!--            </ul> -->
+        <!--      			</div> -->
+        <!--   				</div> -->
+        <!--     		</div> -->
+        <!--     	</div> -->
+        <!--     </div> -->
+        <!--     <div class="row  mt-5 justify-conten-center"> -->
+        <!--     	<div class="col-md-8 ftco-animate"> -->
+        <!--     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero accusantium sunt sit aliquam ipsum molestias autem perferendis, incidunt cumque necessitatibus cum amet cupiditate, ut accusamus. Animi, quo. Laboriosam, laborum.</p> -->
+        <!--     	</div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </section> -->
+
+        <section class="ftco-section testimony-section bg-light">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-3">
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <h2 class="mb-2">Our Patient Reviews</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center ftco-animate">
+                    <div class="col-md-8">
+                        <div class="carousel-testimony owl-carousel ftco-owl">
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/Iksh_Patel.png)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-5">I recently had the opportunity to visit a dentist who performed an implant surgery, and I must say that I am thoroughly impressed with the entire experience. From the moment I walked into the clinic, I felt welcomed and at ease.</p>
+                                        <p class="name">Iksh Patel</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/shinu_joseph.png)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-5">I recently had the pleasure of visiting Dr. Patel's Dental Clinic for my daughter's dental needs and I must say that the experience exceeded my expectations in every way. It was great experience and I suggest this dental clinic to all. Thank you so much Dr. Maulik patel.</p>
+                                        <p class="name">Shinu Joseph</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/Shubham_Thakkar.png)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-5">Clinic was impeccably clean, the doctor nd the staff was incredibly friendly and professional. I visited for cleaning of my teeth and it was top-notch, leaving my teeth feeling fresh n rejuvenated. I couldn't be happier wid this experience. Highly recommended!</p>
+                                        <p class="name">Shubham Thakkar</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/Sanskruti_Suthar.png)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-5">I recently underwent a tooth extraction procedure at Dr. Patel’s clinic, and I must commend the team for their exceptional care and expertise. From the initial consultation to the actual extraction, Dr. Patel took the time to thoroughly explain the procedure and answer all my questions, alleviating any anxieties I had.</p>
+                                        <p class="name">Sanskruti Suthar</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(images/Prabhu_Prajapati.png)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text text-center">
+                                        <p class="mb-5">Very good and best treatment by Dr Maulik Patel. Best option specially for Tooth implants and also other Dental treatment. I have personally very best experience.</p>
+                                        <p class="name">Prabhu Prajapati</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-3 aside-stretch py-5">
+                        <div class=" heading-section heading-section-white ftco-animate pr-md-4">
+                            <h2 class="mb-3">Achievements</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-9 py-5 pl-md-5">
+                        <div class="row">
+                            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18">
+                                    <div class="text">
+                                        <strong class="number">7</strong>
+                                        <span>Years of Experience</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18">
+                                    <div class="text">
+                                        <strong class="number">5</strong>
+                                        <span>Expert Doctors</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18">
+                                    <div class="text">
+                                        <strong class="number">2100</strong>
+                                        <span>Happy Smiling Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                                <div class="block-18">
+                                    <div class="text">
+                                        <strong class="number">320</strong>
+                                        <span>Patients Per Year</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="ftco-gallery"> -->
+        <!--   	<div class="container-wrap"> -->
+        <!--   		<div class="row no-gutters"> -->
+        <!-- 			<div class="col-md-3 ftco-animate"> -->
+        <!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);"> -->
+        <!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
+        <!--   						<span class="icon-search"></span> -->
+        <!--   					</div> -->
+        <!-- 				</a> -->
+        <!-- 			</div> -->
+        <!-- 			<div class="col-md-3 ftco-animate"> -->
+        <!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);"> -->
+        <!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
+        <!--   						<span class="icon-search"></span> -->
+        <!--   					</div> -->
+        <!-- 				</a> -->
+        <!-- 			</div> -->
+        <!-- 			<div class="col-md-3 ftco-animate"> -->
+        <!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);"> -->
+        <!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
+        <!--   						<span class="icon-search"></span> -->
+        <!--   					</div> -->
+        <!-- 				</a> -->
+        <!-- 			</div> -->
+        <!-- 			<div class="col-md-3 ftco-animate"> -->
+        <!-- 				<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);"> -->
+        <!-- 					<div class="icon mb-4 d-flex align-items-center justify-content-center"> -->
+        <!--   						<span class="icon-search"></span> -->
+        <!--   					</div> -->
+        <!-- 				</a> -->
+        <!-- 			</div> -->
+        <!--       </div> -->
+        <!--   	</div> -->
+        <!--   </section> -->
+
+        <!-- <section class="ftco-section"> -->
+        <!--   <div class="container"> -->
+        <!--     <div class="row justify-content-center mb-5 pb-3"> -->
+        <!--       <div class="col-md-7 text-center heading-section ftco-animate"> -->
+        <!--         <h2 class="mb-2">Latest Blog</h2> -->
+        <!--         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--     <div class="row"> -->
+        <!--       <div class="col-md-4 ftco-animate"> -->
+        <!--         <div class="blog-entry"> -->
+        <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');"> -->
+        <!--           </a> -->
+        <!--           <div class="text d-flex py-4"> -->
+        <!--             <div class="meta mb-3"> -->
+        <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
+        <!--               <div><a href="#">Admin</a></div> -->
+        <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
+        <!--             </div> -->
+        <!--             <div class="desc pl-3"> -->
+        <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
+        <!--            </div> -->
+        <!--           </div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--       <div class="col-md-4 ftco-animate"> -->
+        <!--         <div class="blog-entry" data-aos-delay="100"> -->
+        <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');"> -->
+        <!--           </a> -->
+        <!--           <div class="text d-flex py-4"> -->
+        <!--             <div class="meta mb-3"> -->
+        <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
+        <!--               <div><a href="#">Admin</a></div> -->
+        <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
+        <!--             </div> -->
+        <!--             <div class="desc pl-3"> -->
+        <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
+        <!--            </div> -->
+        <!--           </div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--       <div class="col-md-4 ftco-animate"> -->
+        <!--         <div class="blog-entry" data-aos-delay="200"> -->
+        <!--           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');"> -->
+        <!--           </a> -->
+        <!--           <div class="text d-flex py-4"> -->
+        <!--             <div class="meta mb-3"> -->
+        <!--               <div><a href="#">Sep. 20, 2018</a></div> -->
+        <!--               <div><a href="#">Admin</a></div> -->
+        <!--               <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div> -->
+        <!--             </div> -->
+        <!--             <div class="desc pl-3"> -->
+        <!--              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3> -->
+        <!--            </div> -->
+        <!--           </div> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </section> -->
+
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+            <div class="container">
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-md-3">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Dr. Patel's Dental Clinic</h2>
+                            <p>We welcome you to embark on a journey towards happy and healthy smiles with us. Let us be your trusted partners in dental care.</p>
+                            <p>Follow us on</p>
+                        </div>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
+                            <!-- <ul class="ftco-footer-social list-unstyled d-flex justify-content-center"> -->
+                            <li class="ftco-animate"><a href="https://www.instagram.com/drpatelsdentistry?utm_source=qr&igsh=d2dvd2gwZmY3aXhp" target="_blank"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61550794847714&mibextid=ZbWKwL target="_blank"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-2"> -->
+                    <!--   <div class="ftco-footer-widget mb-4 ml-md-5"> -->
+                    <!--     <h2 class="ftco-heading-2">Quick Links</h2> -->
+                    <!--     <ul class="list-unstyled"> -->
+                    <!--       <li><a href="#" class="py-2 d-block">About</a></li> -->
+                    <!--       <li><a href="#" class="py-2 d-block">Features</a></li> -->
+                    <!--       <li><a href="#" class="py-2 d-block">Projects</a></li> -->
+                    <!--       <li><a href="#" class="py-2 d-block">Blog</a></li> -->
+                    <!--       <li><a href="#" class="py-2 d-block">Contact</a></li> -->
+                    <!--     </ul> -->
+                    <!--   </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="col-md-4 pr-md-4"> -->
+                    <!--   <div class="ftco-footer-widget mb-4"> -->
+                    <!--     <h2 class="ftco-heading-2">Recent Blog</h2> -->
+                    <!--     <div class="block-21 mb-4 d-flex"> -->
+                    <!--       <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a> -->
+                    <!--       <div class="text"> -->
+                    <!--         <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3> -->
+                    <!--         <div class="meta"> -->
+                    <!--           <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div> -->
+                    <!--           <div><a href="#"><span class="icon-person"></span> Admin</a></div> -->
+                    <!--           <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
+                    <!--         </div> -->
+                    <!--       </div> -->
+                    <!--     </div> -->
+                    <!-- <div class="block-21 mb-4 d-flex"> -->
+                    <!--   <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a> -->
+                    <!--   <div class="text"> -->
+                    <!--     <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3> -->
+                    <!--     <div class="meta"> -->
+                    <!--       <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div> -->
+                    <!--       <div><a href="#"><span class="icon-person"></span> Admin</a></div> -->
+                    <!--       <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
+                    <!--     </div> -->
+                    <!--   </div> -->
+                    <!-- </div> -->
+                    <!--   </div> -->
+                    <!-- </div> -->
+                    <div class="col-md-3">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Contact Us</h2>
+                            <div class="block-23 mb-3">
+                            <ul>
+                                <li><a href="tel:+918320345948"><span class="icon icon-phone"></span><span class="text">+91 83203 45948</span></a></li>
+                                    <li><a href="https://wa.me/918320345948" target="_blank"><span class="icon icon-whatsapp"></span><span class="text">+91 83203 45948</span></a></li>
+                                <li><a href="mailto:drpatelsdentistry@gmail.com"><span class="icon icon-envelope"></span><span class="text">drpatelsdentistry@gmail.com</span></a></li>
+                                <li><a href="https://maps.app.goo.gl/zr7B6sjCTDa7Qewe6" target="_blank"><span class="icon icon-map-marker"></span><span class="text">Shakti ETC, A - 307, NR Vandematram Cross Rd, opp. Nayara Petrol Pump, Gota, Ahmedabad -382481</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart" style="color: red;" aria-hidden="true"></i> in India using <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalRequestLabel">Contact Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- <div class="modal-body text-dark"> -->
+                    <!--   <p>Modal body text goes here.</p> -->
+                    <!-- </div> -->
+                    <div class="modal-body">
+                        <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><a href="tel:+918320345948"><span class="icon icon-phone text-dark"></span><span class="text text-dark">+91 83203 45948</span></a></li>
+                                <li><a href="https://wa.me/918320345948" target="_blank"><span class="icon icon-whatsapp text-dark"></span><span class="text text-dark">+91 83203 45948</span></a></li>
+                                <li><a href="mailto:drpatelsdentistry@gmail.com"><span class="icon icon-envelope text-dark"></span><span class="text text-dark">drpatelsdentistry@gmail.com</span></a></li>
+                                <li><a href="https://maps.app.goo.gl/zr7B6sjCTDa7Qewe6" target="_blank"><span class="icon icon-map-marker text-dark"></span><span class="text text-dark">Shakti ETC, A - 307, NR Vandematram Cross Rd, opp. Nayara Petrol Pump, Janta Nagar, Gota, Ahmedabad, Gujarat 382481</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/jquery.timepicker.min.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </body>
 </html>
